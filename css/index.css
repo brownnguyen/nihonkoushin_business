@@ -297,7 +297,7 @@ h2 {
 ***********************************************************************************************
 */ }
   .viewmode-mobile #readjustment {
-    margin: 40px 0; }
+    margin: 40px 0 0 0; }
     .viewmode-mobile #readjustment h3 {
       font-size: 1.8rem; }
     .viewmode-mobile #readjustment .text {
@@ -310,25 +310,27 @@ h2 {
       margin: 10px auto;
       display: block;
       transform: rotate(90deg); }
-  .viewmode-mobile #sec02 .content02 .main-block .plan {
-    width: unset; }
-    .viewmode-mobile #sec02 .content02 .main-block .plan span {
-      font-size: 1.6rem;
-      padding: 5px; }
-  .viewmode-mobile #sec02 .block02 .arrow {
-    left: 0;
-    top: -25px; }
-    .viewmode-mobile #sec02 .block02 .arrow img {
-      width: 80%; }
-  .viewmode-mobile #sec02 .block03 .btn-block-center .right, .viewmode-mobile #sec02 .block03 .btn-block-center .left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 20px; }
-  .viewmode-mobile #sec02 .block03 .btn-block-center span {
-    font-size: 1.5rem; }
+  .viewmode-mobile #sec02 {
+    margin: 40px 0 0 0; }
+    .viewmode-mobile #sec02 .content02 .main-block .plan {
+      width: unset; }
+      .viewmode-mobile #sec02 .content02 .main-block .plan span {
+        font-size: 1.6rem;
+        padding: 5px; }
+    .viewmode-mobile #sec02 .block02 .arrow {
+      left: 0;
+      top: -25px; }
+      .viewmode-mobile #sec02 .block02 .arrow img {
+        width: 80%; }
+    .viewmode-mobile #sec02 .block03 .btn-block-center .right, .viewmode-mobile #sec02 .block03 .btn-block-center .left {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      line-height: 20px; }
+    .viewmode-mobile #sec02 .block03 .btn-block-center span {
+      font-size: 1.5rem; }
   .viewmode-mobile #sec03 {
-    margin-bottom: 0; }
+    margin: 40px 0 0 0; }
     .viewmode-mobile #sec03 .consult {
       flex-wrap: wrap; }
       .viewmode-mobile #sec03 .consult .content {
