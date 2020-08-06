@@ -1,0 +1,282 @@
+@charset "UTF-8";
+.readjustment {
+  font-family: "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku 　Gothic Pro", "メイリオ", "ＭＳ ゴシック", sans-serif;
+  text-align: center; }
+  .readjustment #readjustment {
+    margin: 100px auto 76px;
+    background-color: #fff8e7;
+    padding: 60px 0 70px; }
+    .readjustment #readjustment h3 {
+      color: #fcb612;
+      font-size: 2.4rem;
+      font-weight: bold;
+      margin-bottom: 23px;
+      font-family: "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku 　Gothic Pro", "メイリオ", "ＭＳ ゴシック", sans-serif; }
+    .readjustment #readjustment .text p {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #000000;
+      line-height: 30px; }
+    .readjustment #readjustment a {
+      margin-top: 34px;
+      display: inline-block;
+      font-size: 1.4rem;
+      width: 200px;
+      border: 1px solid #333333;
+      color: #000000;
+      text-decoration: none;
+      position: relative;
+      overflow: visible;
+      transition: all 0.5s;
+      z-index: 1; }
+      .readjustment #readjustment a:after {
+        position: absolute;
+        top: 50%;
+        right: -10px;
+        content: "";
+        width: 30px;
+        height: 1px;
+        background-color: #000000;
+        display: block; }
+      .readjustment #readjustment a:before {
+        position: absolute;
+        z-index: -1;
+        width: 0;
+        height: 100%;
+        transition: all 0.2s;
+        background-color: #000000;
+        content: "";
+        top: 0;
+        left: 0; }
+      .readjustment #readjustment a:hover {
+        color: white; }
+        .readjustment #readjustment a:hover:before {
+          width: 100%; }
+
+/*
+事業内容
+/business/*
+*/
+/*
+***********************************************************************************************
+セクション1
+***********************************************************************************************
+*/
+#sec01 {
+  font-family: "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku 　Gothic Pro", "メイリオ", "ＭＳ ゴシック", sans-serif; }
+  #sec01 h2 {
+    font-weight: bold;
+    color: #000000;
+    font-family: "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku 　Gothic Pro", "メイリオ", "ＭＳ ゴシック", sans-serif; }
+  #sec01 p {
+    letter-spacing: 1px;
+    line-height: 30px; }
+  #sec01 .content01 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 46px; }
+    #sec01 .content01 .img-1 {
+      display: flex;
+      align-items: center;
+      position: relative; }
+      #sec01 .content01 .img-1:before {
+        position: absolute;
+        z-index: 2;
+        bottom: 0;
+        left: 0;
+        content: "Before";
+        width: 100px;
+        height: 40px;
+        background-color: #333333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 2rem; }
+      #sec01 .content01 .img-1 .icon {
+        margin-left: 30px; }
+    #sec01 .content01 .img-2 {
+      position: relative; }
+      #sec01 .content01 .img-2:before {
+        position: absolute;
+        z-index: 2;
+        bottom: 15px;
+        left: 0;
+        content: "After";
+        width: 100px;
+        height: 40px;
+        background-color: #333333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 2rem; }
+
+/*
+***********************************************************************************************
+セクション2
+***********************************************************************************************
+*/
+#sec02 {
+  font-family: "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku 　Gothic Pro", "メイリオ", "ＭＳ ゴシック", sans-serif;
+  margin-bottom: 4px; }
+  #sec02 h2 {
+    font-family: "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku 　Gothic Pro", "メイリオ", "ＭＳ ゴシック", sans-serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 3.2rem; }
+  #sec02 p {
+    letter-spacing: 1px;
+    line-height: 30px; }
+  #sec02 .content02 .block01 {
+    margin: auto;
+    margin-top: 48px;
+    max-width: 640px;
+    border: 3px solid #d5ab5e;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #sec02 .content02 .block01 h3 {
+      position: relative;
+      margin-bottom: 0;
+      margin: 15px 0;
+      font-weight: bold;
+      font-family: "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku 　Gothic Pro", "メイリオ", "ＭＳ ゴシック", sans-serif; }
+      #sec02 .content02 .block01 h3:after {
+        position: absolute;
+        top: -13px;
+        margin-left: 35px;
+        content: url(../../img/icon-truck-goods.png); }
+  #sec02 .block02 {
+    position: relative;
+    max-width: 640px;
+    width: 100%;
+    margin: auto; }
+    #sec02 .block02 .arrow {
+      position: absolute;
+      top: -45px;
+      left: 20px; }
+    #sec02 .block02 .main-block {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center; }
+      #sec02 .block02 .main-block .plan {
+        width: 260px;
+        background-color: #dddddd;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center; }
+        #sec02 .block02 .main-block .plan span {
+          color: #333333;
+          font-size: 2rem;
+          font-weight: bold;
+          padding: 10px 0; }
+      #sec02 .block02 .main-block .main02 {
+        margin: 0 10px;
+        margin-top: 13px; }
+      #sec02 .block02 .main-block .main01 {
+        text-align: center; }
+        #sec02 .block02 .main-block .main01 img {
+          margin-top: 19px;
+          margin-bottom: 3px; }
+        #sec02 .block02 .main-block .main01 img:first-of-type {
+          transform: rotate(90deg); }
+        #sec02 .block02 .main-block .main01 img:last-of-type {
+          transform: rotate(-90deg); }
+      #sec02 .block02 .main-block .main03 {
+        position: relative; }
+        #sec02 .block02 .main-block .main03 img {
+          position: absolute;
+          left: 50%;
+          transform: rotate(90deg);
+          bottom: -60px; }
+  #sec02 .block03 {
+    max-width: 640px;
+    border: 3px solid #fcb612;
+    margin: auto; }
+    #sec02 .block03 .block-top {
+      text-align: center; }
+      #sec02 .block03 .block-top .logo {
+        margin-top: 25px; }
+      #sec02 .block03 .block-top .logotype02 {
+        width: 240px;
+        margin-top: -8px;
+        margin-bottom: 4px; }
+    #sec02 .block03 .btn-block-center {
+      display: flex;
+      justify-content: center;
+      font-size: 2rem; }
+      #sec02 .block03 .btn-block-center .left {
+        padding: 20px 0;
+        margin-right: 10px;
+        text-align: center;
+        max-width: 240px;
+        width: 100%;
+        background-color: #fcb612; }
+        #sec02 .block03 .btn-block-center .left span {
+          color: white; }
+      #sec02 .block03 .btn-block-center .right {
+        padding: 20px 0;
+        text-align: center;
+        max-width: 320px;
+        width: 100%;
+        background-color: #fcb612; }
+        #sec02 .block03 .btn-block-center .right span {
+          color: white; }
+    #sec02 .block03 .block-bot {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      line-height: 24px; }
+      #sec02 .block03 .block-bot span {
+        display: block; }
+      #sec02 .block03 .block-bot span:first-of-type {
+        margin-top: 30px; }
+      #sec02 .block03 .block-bot span:last-of-type {
+        margin-bottom: 30px; }
+      #sec02 .block03 .block-bot .icon-bot {
+        margin-bottom: -5px;
+        transform: rotate(90deg); }
+
+/*
+***********************************************************************************************
+セクション3
+***********************************************************************************************
+*/
+#sec03 {
+  margin-bottom: 144px;
+  font-family: "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku 　Gothic Pro", "メイリオ", "ＭＳ ゴシック", sans-serif; }
+  #sec03 h2 {
+    font-weight: bold; }
+  #sec03 p {
+    line-height: 30px; }
+  #sec03 .consult {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 51px; }
+    #sec03 .consult .content {
+      width: 260px;
+      height: 180px;
+      position: relative;
+      border: 3px solid #fcb612;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #sec03 .consult .content h3 {
+        display: inline-block;
+        width: 180px;
+        padding: 11px 0;
+        position: absolute;
+        background-color: #fcb612;
+        left: 50%;
+        top: -26px;
+        transform: translateX(-50%);
+        color: white;
+        font-weight: bold;
+        font-size: 2rem; }
+      #sec03 .consult .content .food {
+        margin-top: 13px; }
+      #sec03 .consult .content .land {
+        margin-top: 13px; }
