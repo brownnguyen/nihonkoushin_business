@@ -1,4 +1,5 @@
 @import "./variables.scss";
+@import "./mixin.scss";
 .readjustment {
     font-family: "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku 　Gothic Pro", "メイリオ",
         "ＭＳ ゴシック", sans-serif;
@@ -24,7 +25,7 @@
             }
         }
         a {
-            margin-top: 34px;
+            margin-top: 36px;
             display: inline-block;
             font-size: 1.4rem;
             width: 200px;
@@ -80,7 +81,10 @@ h2 {
     color: $black;
     font-family: "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku 　Gothic Pro", "メイリオ",
         "ＭＳ ゴシック", sans-serif;
-}
+    &:after{
+        margin-bottom:4px;
+    }
+    }
 #sec01 {
     font-family: "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku 　Gothic Pro", "メイリオ",
         "ＭＳ ゴシック", sans-serif;
@@ -93,7 +97,8 @@ h2 {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        margin-top: 46px;
+        margin-top: 50px;
+        margin-bottom: 3px;
         .img-1 {
             display: flex;
             align-items: center;
@@ -160,19 +165,20 @@ h2 {
     //     font-size: 3.2rem;
     // }
     p {
-        letter-spacing: 1px;
+        letter-spacing: 1.5px;
         line-height: 30px;
     }
     .content02 {
         .block01 {
             margin: auto;
-            margin-top: 48px;
+            margin-top: 52px;
             max-width: 640px;
             border: 3px solid $yellow-1;
             display: flex;
             justify-content: center;
             align-items: center;
             h3 {
+                color: $black-1;
                 position: relative;
                 margin-bottom: 0;
                 margin: 15px 0;
@@ -183,7 +189,7 @@ h2 {
                     position: absolute;
                     top: -13px;
                     margin-left: 35px;
-                    content: url(../../img/icon-truck-goods.png);
+                    content: url(../img/icon-truck-goods.png);
                 }
             }
         }
@@ -292,6 +298,7 @@ h2 {
             line-height: 24px;
             span {
                 display: block;
+                color: $black-1;
             }
             span:first-of-type {
                 margin-top: 30px;
@@ -378,6 +385,14 @@ h2 {
     #sec01 {
         .content01 {
             flex-wrap: wrap;
+            .img-1,
+            .img-2 {
+                &:before {
+                    width: 70px;
+                    height: 30px;
+                    font-size: 1.4rem;
+                }
+            }
             .icon {
                 margin: 10px auto;
                 display: block;
@@ -414,7 +429,8 @@ h2 {
         }
         .block03 {
             .btn-block-center {
-                .right, .left{
+                .right,
+                .left {
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -442,6 +458,22 @@ h2 {
                     display: block;
                     width: calc(100% + 6px);
                     font-size: 1.6rem;
+                }
+            }
+        }
+    }
+}
+@include CSSIE {
+    #sec01 {
+        .content01 {
+            .img-1 {
+                &:before {
+                    padding-top: 6px;
+                }
+            }
+            .img-2 {
+                &:before {
+                    padding-top: 6px;
                 }
             }
         }

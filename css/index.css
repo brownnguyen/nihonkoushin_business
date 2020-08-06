@@ -18,7 +18,7 @@
       color: #000000;
       line-height: 30px; }
     .readjustment #readjustment a {
-      margin-top: 34px;
+      margin-top: 36px;
       display: inline-block;
       font-size: 1.4rem;
       width: 200px;
@@ -66,6 +66,8 @@ h2 {
   font-weight: bold;
   color: #000000;
   font-family: "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku 　Gothic Pro", "メイリオ", "ＭＳ ゴシック", sans-serif; }
+  h2:after {
+    margin-bottom: 4px; }
 
 #sec01 {
   font-family: "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku 　Gothic Pro", "メイリオ", "ＭＳ ゴシック", sans-serif; }
@@ -76,7 +78,8 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: 46px; }
+    margin-top: 50px;
+    margin-bottom: 3px; }
     #sec01 .content01 .img-1 {
       display: flex;
       align-items: center;
@@ -126,17 +129,18 @@ h2 {
   font-family: "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku 　Gothic Pro", "メイリオ", "ＭＳ ゴシック", sans-serif;
   margin-bottom: 4px; }
   #sec02 p {
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     line-height: 30px; }
   #sec02 .content02 .block01 {
     margin: auto;
-    margin-top: 48px;
+    margin-top: 52px;
     max-width: 640px;
     border: 3px solid #d5ab5e;
     display: flex;
     justify-content: center;
     align-items: center; }
     #sec02 .content02 .block01 h3 {
+      color: #333333;
       position: relative;
       margin-bottom: 0;
       margin: 15px 0;
@@ -146,7 +150,7 @@ h2 {
         position: absolute;
         top: -13px;
         margin-left: 35px;
-        content: url(../../img/icon-truck-goods.png); }
+        content: url(../img/icon-truck-goods.png); }
   #sec02 .block02 {
     position: relative;
     max-width: 640px;
@@ -230,7 +234,8 @@ h2 {
       font-weight: bold;
       line-height: 24px; }
       #sec02 .block03 .block-bot span {
-        display: block; }
+        display: block;
+        color: #333333; }
       #sec02 .block03 .block-bot span:first-of-type {
         margin-top: 30px; }
       #sec02 .block03 .block-bot span:last-of-type {
@@ -306,6 +311,11 @@ h2 {
         font-size: 1.3rem; }
   .viewmode-mobile #sec01 .content01 {
     flex-wrap: wrap; }
+    .viewmode-mobile #sec01 .content01 .img-1:before,
+    .viewmode-mobile #sec01 .content01 .img-2:before {
+      width: 70px;
+      height: 30px;
+      font-size: 1.4rem; }
     .viewmode-mobile #sec01 .content01 .icon {
       margin: 10px auto;
       display: block;
@@ -322,7 +332,8 @@ h2 {
       top: -25px; }
       .viewmode-mobile #sec02 .block02 .arrow img {
         width: 80%; }
-    .viewmode-mobile #sec02 .block03 .btn-block-center .right, .viewmode-mobile #sec02 .block03 .btn-block-center .left {
+    .viewmode-mobile #sec02 .block03 .btn-block-center .right,
+    .viewmode-mobile #sec02 .block03 .btn-block-center .left {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -340,3 +351,9 @@ h2 {
           display: block;
           width: calc(100% + 6px);
           font-size: 1.6rem; }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #sec01 .content01 .img-1:before {
+    padding-top: 6px; }
+  #sec01 .content01 .img-2:before {
+    padding-top: 6px; } }
